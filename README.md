@@ -1,4 +1,4 @@
-This folder contains working scripts to run spatial omics segmentation packages.
+This folder contains working scripts to test and run various spatial omics segmentation packages.
 
 # RNA2seg
  RNA2seg is a deep learning-based segmentation tool that takes into account tissue staining and transcript localation. To run the tool, first create a Zarr store from the Xenium output using `rna2seg/src/createZarrFromXenium.py`. This will create a `rna2seg/data/` folder where you can run the subsequent analysis using `rna2seg/src/rna2seg.ipynb`. Datasets will not be uploaded due to size constraints. 

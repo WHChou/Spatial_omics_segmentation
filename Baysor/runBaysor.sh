@@ -19,7 +19,7 @@ cd ${OUTPUT_PATH}
 
 # Run BaysorFormatXenium.py
 echo "Running BaysorFormatXenium.py..."
-conda run -n ficture python /diskmnt/Projects/SenNet_analysis/Main.analysis/bm/Xenium/src/WC/BaysorFormatXenium.py \
+conda run -n ficture python BaysorFormatXenium.py \
     -i ${XENIUM_PATH} -o ${OUTPUT_PATH} --qv_threshold ${QV_THRESHOLD} --SNV_pattern ${SNV_PATTERN}
 
 # Run Baysor

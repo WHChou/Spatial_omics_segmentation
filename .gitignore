@@ -1,2 +1,3 @@
 rna2seg/data/
 .rna2seg*
+*.zarr

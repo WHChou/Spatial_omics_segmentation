@@ -1,3 +1,5 @@
 rna2seg/data/
 .rna2seg*
 *.zarr
+*.h5ad
+proseg/SN222R1-Ma1Fd2-1U1_Xenium_Output
